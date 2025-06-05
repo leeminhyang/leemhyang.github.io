@@ -1,0 +1,62 @@
+/* 전체 배경 및 폰트 설정 */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  font-family: 'Pretendard', sans-serif;
+}
+
+.portfolio-container {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 20px;
+}
+
+/* 표 전체 그리드 설정 */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 33.3vw);
+  grid-template-rows: repeat(5, 16.7vw);
+  border: 2px solid #000000;
+}
+
+/* 헤더 스타일 */
+.header {
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 20px 0;
+  border: 1px solid #007BFF;
+}
+
+/* 셀 스타일 */
+.cell {
+  background-color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 30px 0;
+  border: 1px solid #007BFF;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+/* 마우스 호버 시 효과 */
+.cell:hover {
+  background-color: black;
+  color: white;
+}
+
+
+/* -----------------------------------------------------------------------
+footer 영역 - 저작권 정보
+----------------------------------------------------------------------- */
+
+footer {
+    padding-bottom: 50px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
