@@ -36,7 +36,7 @@ body {
     padding-top: 0px;
 }
 .picture-item {
-    width: 70%;
+    width: 100%;
     padding-right: 0px;
     padding-bottom: 0px;
 }
@@ -46,22 +46,35 @@ body {
 }
 
 /* 셀 스타일 */
+
+
 .cell {
-  background-color: white;
-  text-align: center;
-  font-size: 16px;
-  padding: 30px 0;
-  border: 1px solid #000000;
+  display: block;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  padding: 24px;
+  border: 1px solid #000;;
   transition: background-color 0.3s ease, color 0.3s ease;
-  cursor: pointer;
+  text-align: left;
 }
 
-/* 마우스 호버 시 효과 */
 .cell:hover {
-  background-color: black;
-  color: white;
+  background-color: #000;
+  color: #fff;
 }
 
+.small-text {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+}
+
+.main-title {
+  font-size: 18px;
+  font-weight: bold;
+}
 
 /* -----------------------------------------------------------------------
 footer 영역 - 저작권 정보
@@ -73,3 +86,4 @@ footer {
     text-align: center;
     font-size: 16px;
 }
+
